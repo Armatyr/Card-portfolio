@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+   <link type="text/css" rel="stylesheet" href="css/lightgallery-bundle.css">
+   <link rel="stylesheet" href="css/style.css">
+
+
+
+
+
+   <script src="libs/swiper/swiper-bundle.min.js" defer></script>
+   <script src="libs/swiper/bindSwipers.js" defer></script>
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js" defer></script>
+   <script src="https://kit.fontawesome.com/984e82a880.js" crossorigin="anonymous" defer></script>
+   <script src="js/javascript.js" defer></script>
+
+
+
+   <title>card-portfolio</title>
+</head>
+
+<body>
+
+   <header class="header">
+      <div class="header-wrapper__ship">
+         <div class="logo">
+            <div class="logo__title">
+               <a href="index.html" class="logo__text ship">Ship</a>
+               <img src="img/d356cde393e454e73a045f56e910396b.jpg" alt="" width="50px" height="50px" class="logo__img">
+               <a href="inderCar.html" class="logo__text car">Car</a>
+            </div>
+         </div>
+
+         <nav class="header-info">
+            <ul class="header-title">
+               <a href="" class="header__a">
+                  <li class="header-text">
+                     Видео
+                  </li>
+               </a>
+               <a href="" class="header__a">
+                  <li class="header-text">
+                     Фото
+                  </li>
+               </a>
+
+               <button class="header__a" data-path="form-popup" onclick="openPopup()">
+                  <li class="header-text">
+                     Музыка
+                  </li>
+               </button>
+                 
+            </ul>
+         </nav>
+
+         <div class="header-burger" >
+
+            <div class="header-burger-menu-block">
+               
+               <a href="#" class="burger-menu-btn">
+                  <span></span>
+               </a>
+
+               <nav class="header-menu">
+
+                  <a href="#"><span>
+                     &#127909;</span>
+                  </a>  
+                  
+
+                  <a href="#"><span>
+                        &#128248;</span>
+                  </a>
+                
+                  <button class="header__aa" data-path="form-popup" onclick="openPopup()"><span>
+                        &#127911;</span>
+                  </button>
+                 
+
+               </nav>
+
+            </div>
+
+         </div>
+
+      </div>
+   </header>
+ 
+   <!-- модально окно  ---------------------------------------------->
+
+   <div class="player-modal" id="popup">
+      <i class="fa-solid fa-house"></i>
+      <button onclick="closePopup()" class="header__b">x</button>
+      <audio class="music__popup" src="music/vechnie_hiti_-_enigma_-_return_to_innocence_(z2.fm).mp3" controls></audio>
+   </div>
+
+<!-- модально окно  ------------------------------------------>
+
+   <div class="main-wrapper__ship">
+
+
+      <div class="swiper slider slider1">
+         <div class="swiper-wrapper slider__wrapper">
+
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship.jpg" class="home">
+                  <img src="img/ship.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+
+               <a href="img/ship1.jpg" class="home">
+            
+                  <img src="img/ship1.jpg" alt="" class="slider__img ">
+            
+               </a>
+            
+            </div>
+            <div class="swiper-slide slider__item ship__item ">
+            
+               <a href="img/ship2.jpg" class="home">
+            
+                  <img src="img/ship2.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship3.jpg" class="home">
+                  <img src="img/ship3.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship4.jpg" class="home">
+                  <img src="img/ship4.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship5.jpg" class="home">
+                  <img src="img/ship5.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship6.jpg" class="home">
+                  <img src="img/ship6.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship7.jpg" class="home">
+                  <img src="img/ship7.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship8.jpg" class="home">
+                  <img src="img/ship8.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship9.jpg" class="home">
+                  <img src="img/ship9.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship10.jpg" class="home">
+                  <img src="img/ship10.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship12.jpg" class="home">
+                  <img src="img/ship12.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship13.jpg" class="home">
+                  <img src="img/ship13.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship14.jpg" class="home">
+                  <img src="img/ship14.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship15.jpg" class="home">
+                  <img src="img/ship15.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship16.jpg" class="home">
+                  <img src="img/ship16.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship17.jpg" class="home">
+                  <img src="img/ship17.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship18.jpg" class="home">
+                  <img src="img/ship18.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship19.jpg" class="home">
+                  <img src="img/ship19.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship20.jpg" class="home">
+                  <img src="img/ship20.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship21.jpg" class="home">
+                  <img src="img/ship21.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship22.jpg" class="home">
+                  <img src="img/ship22.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+            
+               <a href="img/ship23.jpg" class="home">
+            
+                  <img src="img/ship23.jpg" alt="" class="slider__img">
+            
+               </a>
+            
+            </div>
+            <div class="swiper-slide slider__item ship__item ">
+            
+               <a href="img/ship24.jpg" class="home">
+            
+                  <img src="img/ship24.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship25.jpg" class="home">
+                  <img src="img/ship25.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship26.jpg" class="home">
+                  <img src="img/ship26.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+
+         </div>
+      </div>
+
+
+
+
+
+      
+      <div class="swiper slider slider2">
+         <div class="swiper-wrapper slider__wrapper">
+
+           
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship26.jpg" class="home">
+                  <img src="img/ship26.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship25.jpg" class="home">
+                  <img src="img/ship25.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship24.jpg" class="home">
+                  <img src="img/ship24.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship23.jpg" class="home">
+                  <img src="img/ship23.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship22.jpg" class="home">
+                  <img src="img/ship22.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship21.jpg" class="home">
+                  <img src="img/ship21.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship40.jpg" class="home">
+                  <img src="img/ship40.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship41.jpg" class="home">
+                  <img src="img/ship41.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship18.jpg" class="home">
+                  <img src="img/ship18.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship17.jpg" class="home">
+                  <img src="img/ship17.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship16.jpg" class="home">
+                  <img src="img/ship16.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship15.jpg" class="home">
+                  <img src="img/ship15.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship14.jpg" class="home">
+                  <img src="img/ship14.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship13.jpg" class="home">
+                  <img src="img/ship13.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+            
+               <a href="img/ship12.jpg" class="home">
+            
+                  <img src="img/ship12.jpg" alt="" class="slider__img">
+            
+               </a>
+            
+            </div>
+            <div class="swiper-slide slider__item ship__item ">
+            
+               <a href="img/ship10.jpg" class="home">
+            
+                  <img src="img/ship10.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship9.jpg" class="home">
+                  <img src="img/ship9.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship8.jpg" class="home">
+                  <img src="img/ship8.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship7.jpg" class="home">
+                  <img src="img/ship7.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship6.jpg" class="home">
+                  <img src="img/ship6.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship5.jpg" class="home">
+                  <img src="img/ship5.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+
+               <a href="img/ship4.jpg" class="home">
+            
+                  <img src="img/ship4.jpg" alt="" class="slider__img">
+            
+               </a>
+            
+            </div>
+            <div class="swiper-slide slider__item ship__item ">
+            
+               <a href="img/ship3.jpg" class="home">
+            
+                  <img src="img/ship3.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship2.jpg" class="home">
+                  <img src="img/ship2.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship1.jpg" class="home">
+                  <img src="img/ship1.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship.jpg" class="home">
+                  <img src="img/ship.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+
+
+         </div>
+      </div>
+
+           
+          
+            
+   
+         
+     
+      <div class="swiper slider slider3">
+         <div class="swiper-wrapper slider__wrapper">
+
+         
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship14.jpg" class="home">
+                  <img src="img/ship14.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship15.jpg" class="home">
+                  <img src="img/ship15.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship16.jpg" class="home">
+                  <img src="img/ship16.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship17.jpg" class="home">
+                  <img src="img/ship17.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship18.jpg" class="home">
+                  <img src="img/ship18.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship41.jpg" class="home">
+                  <img src="img/ship41.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship20.jpg" class="home">
+                  <img src="img/ship20.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+
+               <a href="img/ship21.jpg" class="home">
+            
+                  <img src="img/ship21.jpg" alt="" class="slider__img ">
+            
+               </a>
+            
+            </div>
+            <div class="swiper-slide slider__item ship__item ">
+            
+               <a href="img/ship22.jpg" class="home">
+            
+                  <img src="img/ship22.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship23.jpg" class="home">
+                  <img src="img/ship23.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship24.jpg" class="home">
+                  <img src="img/ship24.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship25.jpg" class="home">
+                  <img src="img/ship25.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship26.jpg" class="home">
+                  <img src="img/ship26.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship.jpg" class="home">
+                  <img src="img/ship.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship1.jpg" class="home">
+                  <img src="img/ship1.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship2.jpg" class="home">
+                  <img src="img/ship2.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship3.jpg" class="home">
+                  <img src="img/ship3.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship4.jpg" class="home">
+                  <img src="img/ship4.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship5.jpg" class="home">
+                  <img src="img/ship5.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship41.jpg" class="home">
+                  <img src="img/ship41.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship7.jpg" class="home">
+                  <img src="img/ship7.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+            
+               <a href="img/ship8.jpg" class="home">
+            
+                  <img src="img/ship8.jpg" alt="" class="slider__img">
+            
+               </a>
+            
+            </div>
+            <div class="swiper-slide slider__item ship__item ">
+            
+               <a href="img/ship9.jpg" class="home">
+            
+                  <img src="img/ship9.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship40.jpg" class="home">
+                  <img src="img/ship40.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship12.jpg" class="home">
+                  <img src="img/ship12.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship13.jpg" class="home">
+                  <img src="img/ship13.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship2.jpg" class="home">
+                  <img src="img/ship2.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship17.jpg" class="home">
+                  <img src="img/ship17.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship.jpg" class="home">
+                  <img src="img/ship.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+           
+         </div>
+      </div>
+
+
+      <div class="swiper slider slider4">
+         <div class="swiper-wrapper slider__wrapper">
+
+            
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship24.jpg" class="home">
+                  <img src="img/ship24.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship7.jpg" class="home">
+                  <img src="img/ship7.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship26.jpg" class="home">
+                  <img src="img/ship26.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship6.jpg" class="home">
+                  <img src="img/ship6.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship14.jpg" class="home">
+                  <img src="img/ship14.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship17.jpg" class="home">
+                  <img src="img/ship17.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship22.jpg" class="home">
+                  <img src="img/ship22.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship23.jpg" class="home">
+                  <img src="img/ship23.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship1.jpg" class="home">
+                  <img src="img/ship1.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship13.jpg" class="home">
+                  <img src="img/ship13.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship6.jpg" class="home">
+                  <img src="img/ship6.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship14.jpg" class="home">
+                  <img src="img/ship14.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship17.jpg" class="home">
+                  <img src="img/ship17.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship22.jpg" class="home">
+                  <img src="img/ship22.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+
+               <a href="img/ship7.jpg" class="home">
+            
+                  <img src="img/ship7.jpg" alt="" class="slider__img">
+            
+               </a>
+            
+            </div>
+            <div class="swiper-slide slider__item ship__item ">
+            
+               <a href="img/ship8.jpg" class="home">
+            
+                  <img src="img/ship8.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship9.jpg" class="home">
+                  <img src="img/ship9.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship10.jpg" class="home">
+                  <img src="img/ship10.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship14.jpg" class="home">
+                  <img src="img/ship14.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship40.jpg" class="home">
+                  <img src="img/ship40.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship15.jpg" class="home">
+                  <img src="img/ship15.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+            
+               <a href="img/ship7.jpg" class="home">
+            
+                  <img src="img/ship7.jpg" alt="" class="slider__img">
+            
+               </a>
+            
+            </div>
+            <div class="swiper-slide slider__item ship__item ">
+            
+               <a href="img/ship8.jpg" class="home">
+            
+                  <img src="img/ship8.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship9.jpg" class="home">
+                  <img src="img/ship9.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship40.jpg" class="home">
+                  <img src="img/ship40.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship14.jpg" class="home">
+                  <img src="img/ship14.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+           
+         </div>
+      </div>
+
+
+      <div class="swiper slider slider5">
+         <div class="swiper-wrapper slider__wrapper">
+
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship12.jpg" class="home">
+                  <img src="img/ship12.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship40.jpg" class="home">
+                  <img src="img/ship40.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship41.jpg" class="home">
+                  <img src="img/ship41.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship23.jpg" class="home">
+                  <img src="img/ship23.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship22.jpg" class="home">
+                  <img src="img/ship22.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship21.jpg" class="home">
+                  <img src="img/ship21.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship1.jpg" class="home">
+                  <img src="img/ship1.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship19.jpg" class="home">
+                  <img src="img/ship19.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship18.jpg" class="home">
+                  <img src="img/ship18.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship20.jpg" class="home">
+                  <img src="img/ship20.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship16.jpg" class="home">
+                  <img src="img/ship16.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship15.jpg" class="home">
+                  <img src="img/ship15.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship14.jpg" class="home">
+                  <img src="img/ship14.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship13.jpg" class="home">
+                  <img src="img/ship13.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+            
+               <a href="img/ship12.jpg" class="home">
+            
+                  <img src="img/ship12.jpg" alt="" class="slider__img">
+            
+               </a>
+            
+            </div>
+            <div class="swiper-slide slider__item ship__item ">
+            
+               <a href="img/ship10.jpg" class="home">
+            
+                  <img src="img/ship10.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship9.jpg" class="home">
+                  <img src="img/ship9.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship8.jpg" class="home">
+                  <img src="img/ship8.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship7.jpg" class="home">
+                  <img src="img/ship7.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship26.jpg" class="home">
+                  <img src="img/ship26.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship5.jpg" class="home">
+                  <img src="img/ship5.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+
+               <a href="img/ship4.jpg" class="home">
+            
+                  <img src="img/ship4.jpg" alt="" class="slider__img">
+            
+               </a>
+            
+            </div>
+            <div class="swiper-slide slider__item ship__item ">
+            
+               <a href="img/ship3.jpg" class="home">
+            
+                  <img src="img/ship3.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship2.jpg" class="home">
+                  <img src="img/ship2.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship17.jpg" class="home">
+                  <img src="img/ship17.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+            <div class="swiper-slide slider__item ship__item">
+               <a href="img/ship.jpg" class="home">
+                  <img src="img/ship.jpg" alt="" class="slider__img">
+               </a>
+            </div>
+          
+         </div>
+      </div>
+
+   </div>
+
+
+   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+
+</body>
+
+</html>
+
+
